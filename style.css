@@ -1,0 +1,134 @@
+*{ 
+    margin: 0;
+    font-family: "inter";
+}
+
+#titulo-menusuperior{
+    margin-left: 75px;
+    margin-top: 120px;
+    align-items: center;
+}
+
+#texto-menusuperior{
+    margin-left: 75px;
+    margin-top: 45px;
+    margin-bottom: 100px;
+}
+
+#menusuperior{
+    background-image:url(imagens/fundo-menusuperior.svg) ;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 1px;
+}
+
+#menuinformacional{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone{
+    margin: 50px 0px 50px 70px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    
+}
+
+#dados {
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.dados-titulo{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.dados-texto {
+    font-size: 15px;
+    font-weight: 400;
+}
+#fotoetexto {
+    background-color: #ffffff;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    
+}
+
+#titulo {
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: px;
+    padding-left: 50px;
+    padding-top: 250px;
+
+}
+
+#texto {
+font-size: 18px;
+padding-top: 5%;
+padding-left: 50px;
+
+}
+
+#imagem {
+width: 450px;
+height: 490px;
+left: 976px;
+padding-top: 180px;
+padding-bottom: 50px;
+}
+
+#Formulario {
+    text-align: center;
+    background-image: url(imagens/fundo-menusuperior.svg);
+    color: white;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    margin-top: 20px;
+}
+
+#titulo-formulario {
+    font-size: 25px;
+    margin: 45px
+    padding-top: 50px
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    background-color: white;
+    margin: 20px;
+    border: 0px;
+    border-radius:5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #C07212 ;
+    height: 40px;
+    width: 250px;
+    color: wheat;
+    border: 0px;
+    border-radius:5px;
+    margin-bottom: 90px;
+    font-size: 20px;
+    font-weight:15px
+}
+
+button:hover{
+    background-color: #925810;
+    color:white;
+    transform: translateY(-7px);
+
+}
